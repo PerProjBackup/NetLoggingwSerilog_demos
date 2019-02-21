@@ -1,0 +1,36 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:44307/",
+      "sslPort": 44307
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "LOGFILE_DIAG": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_diag.txt",
+        "LOGFILE_USAGE": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_usage.txt",
+        "TODO_CONNSTR": "Server=(localdb)\\ProjectsV13;Database=Todo;Integrated Security=True",
+        "LOGFILE_ERROR": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_error.txt",
+        "LOGFILE_PERF": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_perf.txt",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AUTHORITY": "https://demo.identityserver.io/"
+      }
+    },
+    "CoreTodosAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:59051/"
+    }
+  }
+}

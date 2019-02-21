@@ -1,10 +1,10 @@
-﻿{
+{
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:52471",
-      "sslPort": 44328
+      "applicationUrl": "https://localhost:44365",
+      "sslPort": 44365
     }
   },
   "profiles": {
@@ -12,16 +12,25 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "LOGFILE_DIAG": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_diag.txt",
+        "DIAGNOSTICS_ON": "true",
+        "CLIENT_SECRET": "secret",
+        "LOGFILE_USAGE": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_usage.txt",
+        "TODO_CONNSTR": "Server=(localdb)\\ProjectsV13;Database=Todo;Integrated Security=True",
+        "CLIENT_ID": "server.hybrid",
+        "LOGFILE_ERROR": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_error.txt",
+        "LOGFILE_PERF": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_perf.txt",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AUTHORITY": "https://demo.identityserver.io/"
       }
     },
     "CoreTodosMVC": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:54551/"
     }
   }
 }
