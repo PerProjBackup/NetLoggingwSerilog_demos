@@ -16,7 +16,7 @@
         "DIAGNOSTICS_ON": "true",
         "CLIENT_SECRET": "secret",
         "LOGFILE_USAGE": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_usage.txt",
-        "TODO_CONNSTR": "Server=(localdb)\\ProjectsV13;Database=Todo;Integrated Security=True",
+        "TODO_CONNSTR": "Server=.\\SQLEXPRESS;Database=Todo;Integrated Security=True",
         "CLIENT_ID": "server.hybrid",
         "LOGFILE_ERROR": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_error.txt",
         "LOGFILE_PERF": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\mvc_perf.txt",
@@ -34,3 +34,5 @@
     }
   }
 }
+
+// (localdb)\\ProjectsV13

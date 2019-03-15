@@ -16,7 +16,7 @@
       "environmentVariables": {
         "LOGFILE_DIAG": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_diag.txt",
         "LOGFILE_USAGE": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_usage.txt",
-        "TODO_CONNSTR": "Server=(localdb)\\ProjectsV13;Database=Todo;Integrated Security=True",
+        "TODO_CONNSTR": "Server=.\\SQLEXPRESS;Database=Todo;Integrated Security=True",
         "LOGFILE_ERROR": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_error.txt",
         "LOGFILE_PERF": "D:\\DevProj\\Trng\\NetLgngSeriDoneRight\\demos\\Logs\\api_perf.txt",
         "ASPNETCORE_ENVIRONMENT": "Development",
@@ -34,3 +34,5 @@
     }
   }
 }
+
+// (localdb)\\ProjectsV13
